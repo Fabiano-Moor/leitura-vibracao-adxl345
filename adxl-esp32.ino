@@ -1,6 +1,6 @@
 // =============================================================================
 //  SISTEMA DE MONITORAMENTO DE VIBRAÇÃO
-//  Hardware : ESP32-C3 Super Mini + ADXL345 (modo I2C)
+//  Hardware : ESP32-C3 + ADXL345 (modo I2C)
 //  Projeto  : Engenharia Eletrônica — UNIENSINO
 //  Autores  : Clayton Duarte, Fabiano Moor, Mateus Alves, Peterson Andrade
 // =============================================================================
@@ -307,7 +307,7 @@ void atualizarML(float rms, float freq, float picoPico) {
 
 
 // =============================================================================
-// SEÇÃO 14 — LEITURA E FILTRAGEM DO SENSOR (800 Hz)
+// SEÇÃO 14 — LEITURA E FILTRAGEM DO SENSOR (400 Hz)
 // =============================================================================
 //
 //  Cadeia de processamento aplicada a cada amostra:
@@ -2301,7 +2301,7 @@ void setup() {
   Serial.begin(115200);
   Serial.println("tempo_ms,x,y,z,freq,rmsY,picoPicoY");
 
-  // I2C nos pinos do ESP32-C3 Super Mini
+  // I2C nos pinos do ESP32-C3
   Wire.begin(21, 22); //SDA=G21, SCL=G22
 
   // Inicializa o ADXL345
