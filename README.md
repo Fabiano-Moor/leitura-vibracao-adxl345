@@ -147,6 +147,7 @@ Os filtros se ajustam automaticamente com base na frequência dominante detectad
  ┣ 📄 adxl-esp32.ino        → firmware principal
  ┣ 📄 README.md             → este arquivo
  ┃ 📄 esquema.png        → diagrama de ligações
+ | 📄 Fluxograma.png     → Fçuxograma
  ┃ 📄 caixa.stl          → modelo 3D da caixa
  ┃ 📄 artigo.pdf         → artigo completo
 
