@@ -48,12 +48,11 @@ G22 (SCL)    →      SCL
 
 Instale pelo **Gerenciador de Bibliotecas** (`Sketch → Incluir Biblioteca → Gerenciar Bibliotecas`):
 
-| Biblioteca | Autor |
-|---|---|
-| `Adafruit ADXL345` | Adafruit |
-| `Adafruit Unified Sensor` | Adafruit |
-| `arduinoFFT` | kosme |
-| `WebSockets` | Markus Sattler |
+| `Adafruit ADXL345`        | Adafruit        |
+| `Adafruit Unified Sensor` | Adafruit        |
+| `arduinoFFT`              | kosme           |
+| `WebSockets`              | Markus Sattler  |
+| `ArduinoJson`             | Benoit Blanchon |  
 
 ---
 
@@ -144,12 +143,14 @@ Os filtros se ajustam automaticamente com base na frequência dominante detectad
 ## 📁 Estrutura do repositório
 
 ```
-📦 leitura-vibracao-adxl345
- ┣ 📄 leitura_vibracao.ino   → código principal
- ┗ 📄 README.md              → este arquivo
-```
+📦 vibration-monitor-esp32
+ ┣ 📄 adxl-esp32.ino        → firmware principal
+ ┣ 📄 README.md             → este arquivo
+ ┃ 📄 esquema.png        → diagrama de ligações
+ ┃ 📄 caixa.stl          → modelo 3D da caixa
+ ┃ 📄 artigo.pdf         → artigo completo
 
----
+```
 
 ## 👥 Autores
 
