@@ -153,7 +153,12 @@ Os filtros se ajustam automaticamente com base na frequência dominante detectad
 
 ## 👥 Autores
 
-Projeto acadêmico desenvolvido em grupo.
+Projeto acadêmico desenvolvido no curso de Engenharia Eletrônica — UNIENSINO.
+
+- Clayton Duarte
+- Fabiano Moor
+- Mateus Alves
+- Peterson Andrade
 
 ---
 
